@@ -24,3 +24,9 @@ update AddressBook set address='adarsh colny' where FirstName='dhiraj';
 update AddressBook set city='delhi' where FirstName='suraj';
 update AddressBook set state='kerala' where FirstName='trimbak';
 select * from AddressBook
+
+delete from AddressBook where FirstName='dhiraj';
+delete from AddressBook where FirstName='suraj';
+delete from AddressBook where FirstName='trimbak';
+delete from AddressBook where FirstName='suresh';
+select * from AddressBook
