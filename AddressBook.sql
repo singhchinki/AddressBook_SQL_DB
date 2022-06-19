@@ -36,3 +36,9 @@ select COUNT(City) as 'number_of_contacts' from AddressBook where City='pune' gr
 select COUNT(State) as 'number_of_contacts' from AddressBook where State='andhra' group by state;
 
 select * from AddressBook where City='amravati' order by Firstname;
+
+alter table AddressBook add address_book_name varchar(50),address_book_type varchar(50);
+update AddressBook set address_book_name='family address book', address_book_type='Family' where FirstName='dhiraj';
+update AddressBook set address_book_name='friends address book', address_book_type='Friends,' where FirstName='vidyadhar';
+update AddressBook set address_book_name='profession address book', address_book_type='Profession' where FirstName='suraj';
+select * from AddressBook
