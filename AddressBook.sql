@@ -46,3 +46,7 @@ select * from AddressBook
 select count(address_book_type) as 'number_of_contacts' from AddressBook where address_book_type='Family';
 select count(address_book_type) as 'number_of_contacts' from AddressBook where address_book_type='Friends';
 select count(address_book_type) as 'number_of_contacts' from AddressBook where address_book_type='Profession';
+
+insert into AddressBook values ('nitikesh','hudge','tawarja colony','latur','maharashtra',413512,8149713160,'dhiraj@gmail.com','family address book','Family'),
+('nitikesh','hudge','tawarja colony','latur','maharashtra',413512,8149713160,'dhiraj@gmail.com','friends address book','Friends');
+select * from AddressBook
