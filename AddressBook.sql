@@ -32,4 +32,6 @@ delete from AddressBook where FirstName='suresh';
 select * from AddressBook
 
 select * from AddressBook where City='amravati' Or State='maharashtra';
+select COUNT(City) as 'number_of_contacts' from AddressBook where City='pune' group by city;
+select COUNT(State) as 'number_of_contacts' from AddressBook where State='andhra' group by state;
 
