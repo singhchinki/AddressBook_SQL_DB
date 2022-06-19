@@ -19,3 +19,8 @@ insert into AddressBook values('vidyadhar','hudge','bashweshwar','amravati','and
 insert into AddressBook values('trimbak','pawar','shivaji chowk','mumbai','up','748949','8149703160','trimbak@gmail.com')
 insert into AddressBook values('suresh','hudge','ashok hotel','udagir','rajshthan','413562','9149713160','suresh@gmail.com')
 select * from AddressBook
+
+update AddressBook set address='adarsh colny' where FirstName='dhiraj';
+update AddressBook set city='delhi' where FirstName='suraj';
+update AddressBook set state='kerala' where FirstName='trimbak';
+select * from AddressBook
