@@ -30,3 +30,6 @@ delete from AddressBook where FirstName='suraj';
 delete from AddressBook where FirstName='trimbak';
 delete from AddressBook where FirstName='suresh';
 select * from AddressBook
+
+select * from AddressBook where City='amravati' Or State='maharashtra';
+
