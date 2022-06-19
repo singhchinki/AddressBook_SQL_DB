@@ -42,3 +42,7 @@ update AddressBook set address_book_name='family address book', address_book_typ
 update AddressBook set address_book_name='friends address book', address_book_type='Friends,' where FirstName='vidyadhar';
 update AddressBook set address_book_name='profession address book', address_book_type='Profession' where FirstName='suraj';
 select * from AddressBook
+
+select count(address_book_type) as 'number_of_contacts' from AddressBook where address_book_type='Family';
+select count(address_book_type) as 'number_of_contacts' from AddressBook where address_book_type='Friends';
+select count(address_book_type) as 'number_of_contacts' from AddressBook where address_book_type='Profession';
